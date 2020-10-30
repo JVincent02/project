@@ -1,0 +1,156 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.bg{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    background-image:     linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('./static/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size:    100% 100%;
+    
+/*
+    filter: blur(6px);
+  -webkit-filter: blur(6px);
+*/
+}
+
+.navbar{
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+       padding: 20px;
+    position: fixed;
+    z-index: 1;
+}
+.title-logo{
+    letter-spacing: 6px;
+    border-style: solid;
+    border-color: #c40202;
+    width: 640px;
+
+}
+.title-logo span{
+    display: block;
+    width: inherit;
+    height: inherit;
+    color: #c40202;
+    font-size: 30px;
+    text-align: center;
+}
+
+.title-logo span span{
+    display: inline;
+    color: #0835ff;
+}
+.welcome-con{
+    display: flex;
+    position: absolute;
+    height: auto;
+    width: 95%;    
+    top:27%;
+    padding: 10px;
+    left:1%;
+    
+}
+
+
+.welcome-con p{
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 6px;
+    text-align: center;
+    padding-top: 40px;
+    color: white ;
+}
+
+.welcome-con p :nth-child(1){
+    color:red;
+}
+
+.welcome-con p :nth-child(2){
+    color: blue;
+}
+.welcome-con p :nth-child(3){
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    display: block;
+    padding-top: 80px;
+}
+.welcome-con img{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+section{
+    position: relative;
+    width: 100%;
+}
+
+.full{
+    height: 100vh;
+}
+
+.content{
+    background: rgba(20,20,20);
+}
+
+.content h1{
+    color: white;
+    font-weight: 800;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.content p{
+    color:white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.inside{
+           color:white;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 40px;
+    text-align: justify;
+    line-height: 40px;
+    font-size: 20px; 
+}
+
+.outside{
+    color:white;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 40px;
+    text-align: justify;
+    line-height: 40px;
+    font-size: 20px; 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
